@@ -1,21 +1,48 @@
 # Unity Survival Prototype
 
 Prototyp gry survival/action przygotowany w **Unity**.  
-Repozytorium zawiera zarówno **gotowy build do uruchomienia**, jak i **pełny projekt źródłowy** do dalszej edycji.
+Repozytorium zawiera:
+
+- **gotowy build gry** do uruchomienia
+- **pełny projekt Unity** do dalszej edycji
 
 ---
 
-## Najważniejsze
+## Jak uruchomić grę
 
-Jeżeli chcesz **po prostu uruchomić grę**, wejdź do folderu:
+Gotowy build znajduje się w folderze:
+
+## `prototyp/`
+
+Aby uruchomić grę:
+
+1. Pobierz repozytorium z GitHuba
+   - najlepiej przez **Code -> Download ZIP**
+   - albo przez `git clone`
+
+2. Rozpakuj pobrane pliki
+
+3. Wejdź do folderu:
 
 ## `prototyp`
 
-i uruchom plik:
+4. Uruchom plik:
 
 ## `.exe`
 
-Nie trzeba otwierać Unity.
+---
+
+## Ważne
+
+Nie należy pobierać ani uruchamiać samego pliku `.exe` osobno.
+
+Build Unity działa poprawnie tylko wtedy, gdy plik `.exe` znajduje się razem z pozostałymi plikami builda w folderze `prototyp`.
+
+Czyli trzeba mieć cały folder:
+
+## `prototyp/`
+
+a dopiero potem uruchomić `.exe`.
 
 ---
 
@@ -24,19 +51,9 @@ Nie trzeba otwierać Unity.
 ### `prototyp/`
 Folder z **gotowym buildem gry**.
 
-To jest wersja dla osoby, która chce:
-- uruchomić prototyp
-- sprawdzić działanie gry
-- przetestować aktualną wersję bez otwierania projektu w Unity
-
-**Jak uruchomić:**
-1. Otwórz folder `prototyp`
-2. Znajdź plik `.exe`
-3. Uruchom plik `.exe`
-
-> Do grania używaj właśnie folderu `prototyp`.
-
----
+To właśnie ten folder służy do:
+- uruchomienia gry
+- testowania prototypu bez Unity
 
 ### `my project/`
 Folder z **pełnym projektem Unity**.
@@ -59,21 +76,21 @@ Ten folder służy do:
 
 ---
 
-## Jak uruchomić prototyp
+## Jak otworzyć projekt w Unity
 
-### Opcja 1 — tylko uruchomienie gry
-1. Wejdź do folderu `prototyp`
-2. Uruchom plik `.exe`
+Jeżeli chcesz otworzyć projekt do edycji:
 
-### Opcja 2 — edycja projektu w Unity
-1. Otwórz **Unity Hub**
+1. Uruchom **Unity Hub**
 2. Kliknij **Add project**
-3. Wskaż folder `my project`
+3. Wskaż folder:
+
+## `my project`
+
 4. Otwórz projekt odpowiednią wersją Unity
 
 ---
 
-## Co znajduje się w prototypie
+## Zawartość prototypu
 
 Aktualna wersja zawiera między innymi:
 - ruch gracza
@@ -84,15 +101,14 @@ Aktualna wersja zawiera między innymi:
 - levelowanie
 - menu level up
 - pasek broni i miejsce na dodatki
-- build gry gotowy do uruchomienia
+- gotowy build gry
 
 ---
 
-## Informacje organizacyjne
+## Podsumowanie
 
-- Folder `prototyp` to **wersja do uruchomienia**
-- Folder `my project` to **wersja projektowa do Unity**
-- Jeżeli repozytorium zostało pobrane z GitHuba, do samego grania wystarczy folder `prototyp`
+- **chcesz zagrać** -> pobierz repozytorium i uruchom `.exe` z folderu `prototyp`
+- **chcesz edytować projekt** -> otwórz folder `my project` w Unity
 
 ---
 
