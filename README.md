@@ -112,6 +112,3 @@ Aktualna wersja zawiera między innymi:
 
 ---
 
-## Autor
-
-Projekt przygotowany jako prototyp gry w Unity.
