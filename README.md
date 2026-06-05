@@ -1,30 +1,16 @@
-# Unity Survival Prototype
+# Prototyp gry
 
-Prototyp gry survival/action przygotowany w **Unity**.  
-Repozytorium zawiera:
+Repozytorium zawiera **gotowy build gry**.
 
-- **gotowy build gry** do uruchomienia
-- **pełny projekt Unity** do dalszej edycji
+## Jak uruchomić
 
----
-
-## Jak uruchomić grę
-
-Gotowy build znajduje się w folderze:
-
-## `prototyp/`
-
-Aby uruchomić grę:
-
-1. Pobierz repozytorium z GitHuba
-   - najlepiej przez **Code -> Download ZIP**
+1. Pobierz całe repozytorium z GitHuba
+   - np. przez **Code -> Download ZIP**
    - albo przez `git clone`
 
-2. Rozpakuj pobrane pliki
+2. Rozpakuj pliki, jeśli pobierałeś ZIP
 
-3. Wejdź do folderu:
-
-## `prototyp`
+3. Wejdź do folderu projektu
 
 4. Uruchom plik:
 
@@ -34,81 +20,22 @@ Aby uruchomić grę:
 
 ## Ważne
 
-Nie należy pobierać ani uruchamiać samego pliku `.exe` osobno.
+Nie uruchamiaj samego pliku `.exe` osobno bez reszty plików.
 
-Build Unity działa poprawnie tylko wtedy, gdy plik `.exe` znajduje się razem z pozostałymi plikami builda w folderze `prototyp`.
+Build Unity działa poprawnie tylko wtedy, gdy plik `.exe` znajduje się razem z pozostałymi plikami builda w tym samym folderze.
 
-Czyli trzeba mieć cały folder:
-
-## `prototyp/`
-
-a dopiero potem uruchomić `.exe`.
+Czyli trzeba pobrać **cały folder projektu**, a nie tylko sam plik `.exe`.
 
 ---
 
-## Struktura repozytorium
+## Zawartość
 
-### `prototyp/`
-Folder z **gotowym buildem gry**.
-
-To właśnie ten folder służy do:
-- uruchomienia gry
-- testowania prototypu bez Unity
-
-### `my project/`
-Folder z **pełnym projektem Unity**.
-
-Zawiera pliki potrzebne do dalszej pracy nad grą, między innymi:
-- `Assets`
-- `Packages`
-- `ProjectSettings`
-- sceny
-- skrypty
-- UI
-- animacje
-- prefaby
-- tekstury
-
-Ten folder służy do:
-- otwierania projektu w Unity
-- edycji gry
-- dalszego rozwoju projektu
-
----
-
-## Jak otworzyć projekt w Unity
-
-Jeżeli chcesz otworzyć projekt do edycji:
-
-1. Uruchom **Unity Hub**
-2. Kliknij **Add project**
-3. Wskaż folder:
-
-## `my project`
-
-4. Otwórz projekt odpowiednią wersją Unity
-
----
-
-## Zawartość prototypu
-
-Aktualna wersja zawiera między innymi:
+Aktualna wersja prototypu zawiera między innymi:
 - ruch gracza
 - przeciwników i ich animacje
-- kilka typów przeciwników
-- bossa
-- system XP
-- levelowanie
+- system doświadczenia i levelowania
 - menu level up
-- pasek broni i miejsce na dodatki
-- gotowy build gry
+- różne typy przeciwników
+- bossa
 
 ---
-
-## Podsumowanie
-
-- **chcesz zagrać** -> pobierz repozytorium i uruchom `.exe` z folderu `prototyp`
-- **chcesz edytować projekt** -> otwórz folder `my project` w Unity
-
----
-
